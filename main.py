@@ -9,7 +9,7 @@ import plotly.graph_objs as go
 
 
 
-data =  pd.read_csv(r"C:\Users\HP\OneDrive\Desktop\BItcoin\Dataset\bitcoin_price_Training - Training.csv")
+data =  pd.read_csv(r"Dataset/bitcoin_price_Training - Training.csv")
 
 # @nd step 
 data['Date'] = pd.to_datetime(data['Date'])
